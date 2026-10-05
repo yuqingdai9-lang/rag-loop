@@ -1,0 +1,22 @@
+# Runtime evidence and machine configuration stay outside version control.
+.local/
+local/
+runs/
+outputs/
+*.local.json
+*.local.ps1
+.env
+.env.*
+auth.json
+.credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ci-output/
+.DS_Store
+Thumbs.db
